@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS who_cares;
+CREATE DATABASE who_cares;
