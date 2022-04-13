@@ -15,6 +15,7 @@ Comment.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
+         // only allow values that is 1 in length. theoretically can be extend by using 'len: [x,y]` which would define min and max length
         len: [1]
       }
     },

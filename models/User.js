@@ -43,7 +43,7 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [4]
+        len: [1]
       }
     }
   },
@@ -55,6 +55,9 @@ User.init(
         return newUserData;
       },
       // set up beforeUpdate lifecycle "hook" functionality
+
+      //lifecycle hook provides a specified amount of time (one hour by default) to wait for the action to complete before 
+      //the instance transitions to the next state.
       async beforeUpdate(updatedUserData) {
         updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
         return updatedUserData;
@@ -64,7 +67,7 @@ User.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'user'
+    modelName: 'User'
   }
 );
 

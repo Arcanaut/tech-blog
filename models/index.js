@@ -15,7 +15,7 @@ Post.belongsTo(User, {
 Comment.belongsTo(User, {
   foreignKey: 'user_id'
 });
-// onDelete: 'CASCADE' also deletes the row on the table, saving space in the database
+// onDelete: 'CASCADE' also deletes the row in the table, saving space in the database
 //and making sure empty cells don't accumulate nor slow down the database
 Comment.belongsTo(Post, {
   foreignKey: 'post_id',

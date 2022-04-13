@@ -3,7 +3,7 @@ const { Post } = require('../models');
 const postdata = [
     {
         title: 'IRS wants to know how much cryptocurrency I have?',
-        content: 'Do I have to tell them? I thought the entire point was that it is impossible to track!',
+        content: 'Do I have to tell them? I thought the entire point was that it is impossible to track, and more importantly non-taxable!',
         user_id: 1
     },
     {
