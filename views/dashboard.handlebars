@@ -45,21 +45,11 @@
 
     {{/if}}
 
-    <form class="new-comment-form">
-      <div>
-        <input type="hidden" id="post-id" value="{{post.id}}" />
-
-
-
-        <label for="comment" class="form-label">Comment</label>
-        <textarea type="text" name="comment" class="form-input"></textarea>
-
-        <button type="submit" class="btn" id="submit-comment">submit</button>
-      </div>
-    </form>
+    
     {{/each}}
   </ol>
 </section>
 {{/if}}
 <script src="/javascript/comment"></script>
+<script src="/javascript/delete-post.js"></script>
 <script src="/javascript/add-post.js"></script>

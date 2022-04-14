@@ -1,10 +1,11 @@
+const withAuth = require('../../utils/auth');
 async function deleteFormHandler(event) {
     event.preventDefault();
   
     const id = window.location.toString().split('/')[
       window.location.toString().split('/').length - 1
     ];
-    const response = await fetch(`/api/posts/${id}`, {
+    const response = await fetch(`/api/posts/${postid}`, {
       method: 'DELETE'
     });
   
@@ -15,5 +16,5 @@ async function deleteFormHandler(event) {
     }
   }
   
-  document.querySelector('.delete-post-btn').addEventListener('click', deleteFormHandler);
+  document.querySelector('.delete-post-button').addEventListener('click', deleteFormHandler);
   
