@@ -13,15 +13,15 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">Hello Word!</a>
+      <h1 id="banner">
+        <a href="/" >Hello Word!</a>
       </h1>
       <nav class="">
         {{#if loggedIn}}
-        <a href="/dashboard" class="">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <a href="/dashboard" class="dashboard-btn">dashboard</a>
+        <button id="logout" class="dashboard-btn">logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" class="dashboard-btn">login</a>
         {{/if}}
       </nav>
     </header>
