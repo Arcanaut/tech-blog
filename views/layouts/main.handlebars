@@ -14,14 +14,14 @@
   <div class="wrapper">
     <header>
       <h1 id="banner">
-        <a href="/" >Hello Word!</a>
+        <a href="/" id="banner-btn" >Hello Word!</a>
       </h1>
       <nav class="">
         {{#if loggedIn}}
         <a href="/dashboard" class="dashboard-btn">dashboard</a>
         <button id="logout" class="dashboard-btn">logout</button>
         {{else}}
-        <a href="/login" class="dashboard-btn">login</a>
+        <a href="/login" class="dashboard-login" >login</a>
         {{/if}}
       </nav>
     </header>

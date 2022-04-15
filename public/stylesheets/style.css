@@ -13,18 +13,26 @@
 
   }
 
-  a:link { text-decoration: none; }
+  a:link { 
+          text-decoration: none;
+          color:ce31c9;
+           }
 
 
-a:visited { text-decoration: none; 
-            color: black;
+a:visited { 
+            text-decoration: none; 
+            color: ce31c9;
 }
 
 
-a:hover { text-decoration: none; }
+a:hover { 
+  text-decoration: none; 
+}
 
 
-a:active { text-decoration: none; }
+a:active { 
+  text-decoration: none; 
+}
   
   * {
     box-sizing: border-box;
@@ -49,6 +57,19 @@ a:active { text-decoration: none; }
     line-height: 1.25;
     
   }
+
+
+  #banner-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
   
   #h2 {
     text-align: center;
@@ -65,11 +86,12 @@ a:active { text-decoration: none; }
 
     
   
-   .btn {
+   .btn,
+   .create-btn {
     font-size: 1.3rem;
     text-decoration:none;
     padding: 6px 5px;
-    width: 100%;
+    width: 10%;
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
@@ -87,6 +109,7 @@ a:active { text-decoration: none; }
     transform: translate(0, 0);
     box-shadow: 2px 2px var(--dark);
   }
+  
   
   .btn-inline {
     display: inline;
@@ -115,7 +138,8 @@ a:active { text-decoration: none; }
     box-shadow: 2px 2px var(--dark);
   }
   
-  .dashboard-btn {
+  .dashboard-btn,
+  .dashboard-login {
     color:#ccdad1;
     font-size: 1.3rem;
     text-decoration:none;
@@ -206,3 +230,6 @@ a:active { text-decoration: none; }
     justify-content: space-between;
   }
   
+  #hidden {
+      display: none;   
+  }
