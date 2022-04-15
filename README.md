@@ -1,7 +1,7 @@
-# Game Grab
+# Hello Word
 Designed and developed by Brendan Ahearn!
 
-![Game Grab Screenshot](https://github.com/Arcanaut/tech-blog/blob/main/public/assets/thumbnail.png)
+![Hello Word](https://github.com/Arcanaut/tech-blog/blob/main/public/assets/thumbnail.png)
 ## App Description
 
 HTML,
