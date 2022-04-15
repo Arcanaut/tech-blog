@@ -1,5 +1,5 @@
 # Game Grab
-Designed and developed by Bo Kok, Brendan Ahearn, and Collin Beisel
+Designed and developed by Brendan Ahearn!
 
 ![Game Grab Screenshot](https://github.com/Arcanaut/tech-blog/blob/main/public/assets/thumbnail.png)
 ## App Description
