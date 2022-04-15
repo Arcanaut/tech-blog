@@ -1,5 +1,5 @@
-# Hello Word
-Designed and developed by Brendan Ahearn!
+# Hello Word!
+Designed and developed by Brendan Ahearn
 
 ![Hello Word](https://github.com/Arcanaut/tech-blog/blob/main/public/assets/thumbnail.png)
 ## App Description
