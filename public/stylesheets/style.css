@@ -63,12 +63,15 @@ a:active {
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: var(--light-dark);
+    color:#ccdad1;
   }
 
   #h1 {
     display: flex;
     justify-content: center;
     text-align: center;
+    
   }
   
   #h2 {
