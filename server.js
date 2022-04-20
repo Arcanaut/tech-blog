@@ -38,9 +38,4 @@ sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
 
-/*{
-	"username":"Lerantino",
-	"email":"lerantino@fakemeail.edu",
-	"password":"password1234"
-}*/
 
